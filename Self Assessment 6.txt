@@ -1,0 +1,31 @@
+Zachary Ziemann
+Assignment 6
+
+1. How long did you spend on this assignment?
+ - As usual, this took a very long time, over 2 days long again.  
+
+2. Based on your effort, what letter grade would you say you earned?
+A
+
+3. Based on your solution, what letter grade would you say you earned?
+A
+
+4. Provide a summary of what doesn't work in your solution, 
+along with an explanation of how you attempted 
+to solve the problem and where you feel you struggled.
+
+ - This assignment was difficult in a different way this time, the machine I am using to code seemed to
+act buggy. The physics seemed to act very strange sometimes and fine others.  I did the best I could with
+the hardware I had.  
+ - This was one of the more enjoyable assignments even if it was hard and frustrating, learning about physics and animation
+ - Part of the reason this seemed so hard is I think that I got stuck on simple parts of the code, 
+and really needed to figure that section out before I could move on to more important things. 
+I guess partly a problem from being an online class. 
+
+The app is a breakout game. 
+The game has a moveable paddle and bricks that are generated from code based on user setting,
+like the assignment said.
+The user setting screen has 4 custimazations for the game, with the 3 requried UI classes from the requirements.
+The ball bounces off walls, paddle, etc.
+When you click or touch, the ball gets pushed in a random direction like it is supposed to also. 
+The brick collision was not working exactly like I'd like it but it does work usually.
