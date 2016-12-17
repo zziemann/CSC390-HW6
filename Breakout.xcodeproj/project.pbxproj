@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		929293781E04DB790007DD79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929293771E04DB790007DD79 /* AppDelegate.swift */; };
-		9292937A1E04DB790007DD79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929293791E04DB790007DD79 /* ViewController.swift */; };
 		9292937D1E04DB790007DD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9292937B1E04DB790007DD79 /* Main.storyboard */; };
 		9292937F1E04DB790007DD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9292937E1E04DB790007DD79 /* Assets.xcassets */; };
 		929293821E04DB790007DD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929293801E04DB790007DD79 /* LaunchScreen.storyboard */; };
+		9292938B1E04DBDB0007DD79 /* BreakoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292938A1E04DBDB0007DD79 /* BreakoutView.swift */; };
+		9292938D1E04DBFA0007DD79 /* BreakoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292938C1E04DBFA0007DD79 /* BreakoutViewController.swift */; };
+		9292938F1E04F40C0007DD79 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9292938E1E04F40C0007DD79 /* BallView.swift */; };
+		929293911E04FB2E0007DD79 /* BreakoutBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929293901E04FB2E0007DD79 /* BreakoutBehavior.swift */; };
+		929293931E050F670007DD79 /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929293921E050F670007DD79 /* Paddle.swift */; };
+		929293951E05B4130007DD79 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929293941E05B4130007DD79 /* UserSettings.swift */; };
+		929293971E05C7E10007DD79 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929293961E05C7E10007DD79 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		929293741E04DB780007DD79 /* Breakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929293771E04DB790007DD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		929293791E04DB790007DD79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9292937C1E04DB790007DD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9292937E1E04DB790007DD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929293811E04DB790007DD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929293831E04DB790007DD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9292938A1E04DBDB0007DD79 /* BreakoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakoutView.swift; sourceTree = "<group>"; };
+		9292938C1E04DBFA0007DD79 /* BreakoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakoutViewController.swift; sourceTree = "<group>"; };
+		9292938E1E04F40C0007DD79 /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
+		929293901E04FB2E0007DD79 /* BreakoutBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakoutBehavior.swift; sourceTree = "<group>"; };
+		929293921E050F670007DD79 /* Paddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
+		929293941E05B4130007DD79 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		929293961E05C7E10007DD79 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		929293761E04DB790007DD79 /* Breakout */ = {
 			isa = PBXGroup;
 			children = (
-				929293771E04DB790007DD79 /* AppDelegate.swift */,
-				929293791E04DB790007DD79 /* ViewController.swift */,
+				929293941E05B4130007DD79 /* UserSettings.swift */,
+				929293891E04DB990007DD79 /* Supporting Files */,
 				9292937B1E04DB790007DD79 /* Main.storyboard */,
+				929293961E05C7E10007DD79 /* SettingsViewController.swift */,
+				9292938A1E04DBDB0007DD79 /* BreakoutView.swift */,
+				929293901E04FB2E0007DD79 /* BreakoutBehavior.swift */,
+				929293921E050F670007DD79 /* Paddle.swift */,
+				9292938C1E04DBFA0007DD79 /* BreakoutViewController.swift */,
+				9292938E1E04F40C0007DD79 /* BallView.swift */,
+			);
+			path = Breakout;
+			sourceTree = "<group>";
+		};
+		929293891E04DB990007DD79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929293771E04DB790007DD79 /* AppDelegate.swift */,
 				9292937E1E04DB790007DD79 /* Assets.xcassets */,
 				929293801E04DB790007DD79 /* LaunchScreen.storyboard */,
 				929293831E04DB790007DD79 /* Info.plist */,
 			);
-			path = Breakout;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9292937A1E04DB790007DD79 /* ViewController.swift in Sources */,
+				9292938D1E04DBFA0007DD79 /* BreakoutViewController.swift in Sources */,
 				929293781E04DB790007DD79 /* AppDelegate.swift in Sources */,
+				929293911E04FB2E0007DD79 /* BreakoutBehavior.swift in Sources */,
+				929293931E050F670007DD79 /* Paddle.swift in Sources */,
+				929293951E05B4130007DD79 /* UserSettings.swift in Sources */,
+				9292938B1E04DBDB0007DD79 /* BreakoutView.swift in Sources */,
+				9292938F1E04F40C0007DD79 /* BallView.swift in Sources */,
+				929293971E05C7E10007DD79 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
